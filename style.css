@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Open Sans";
+}
+section{
+    padding: 100px 0px;
+}
+.s-header{
+    text-align: center;
+}
+.s-header h2{
+    font-family: 'raleway';
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.s-header .border{
+    height: 2px;
+    width: 90px;
+    background: #ff9933;
+    margin: auto;
+}
+.s-header p{
+    font-size: 14px;
+    color: #999;
+    margin-top: 30px;
+}
+
+
+/* Header Start */
+#header{
+    background: #000;
+    padding: 15px 0px;
+}
+#header nav ul{
+    float: right;
+}
+#header nav ul li{
+    display: inline-flex;
+}
+#header nav ul li a{
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 14px;
+    transition: 0.4s ease;
+}
+#header nav ul li a:hover{
+    color: #ff9933;
+}
+/* Header End */
+/* Hero Start */
+#hero{
+    background-image: url(assets/images/hero-image.png);
+    height: 90vh;
+    
+}
+#hero .text-area{
+    margin-top: 23%;
+}
+#hero .text-area img{
+    width: 170px;
+}
+#hero .text-area h2{
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: #fff;
+    font-size: 35px;
+    padding: 25px 0px;
+}
+#hero .text-area .border{
+    height: 2px;
+    width: 70px;
+    background: #fff;
+}
+#hero .text-area p{
+    color: #ccc;
+    font-family: 'Raleway';
+    font-size: 16px;
+    padding: 40px 0px;
+}
+#hero .text-area a{
+    color: #fff;
+    padding: 12px 24px;
+    border: 1px solid #fff;
+    transition: 0.4s ease;
+}
+#hero .text-area a:hover{
+    color: #ff9933;
+    border: 1px solid #ff9933;
+}
+#hero .trial-form{
+    margin-left: 20px;
+    color:#fff;
+    background: #ccc;
+    width: 450px;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 21%;
+}
+#hero .trial-form .header{
+    color: #000;
+    padding: 10px 40px;
+}
+#hero .trial-form .header h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+}
+#hero .trial-form .header h2 span{
+    color: #ff9933;
+}
+#hero .trial-form .body{
+    background: #fff;
+    padding: 40px;
+}
+#hero .trial-form .body input{
+    width: 100%;
+    padding: 5px 20px;
+    outline: 0px;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    margin: 20px 0px;
+}
+#hero .trial-form .footer{
+    background-color: #ff9933;
+    padding: 20px 40px;
+}
+#hero .trial-form .footer a{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    transition: 0.4s ease;
+}
+#hero .trial-form .footer a:hover{
+    color: #000;
+}
+/* Hero End */
+/* Social-Media Start */
+#social-media{
+    padding: 20px 0px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.7);
+}
+#social-media .text p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+#social-media .icon{
+    margin-left: auto;
+}
+#social-media .icon i{
+    color: #999;
+    margin-left: 50px;
+    font-size: 42px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.4s  ease;
+}
+#social-media .icon i:hover{
+    color: #ff9933;
+}
+/* Social-Media End */
+/* Feature Start */
+#feature{
+    background: #F5F5F5;
+    
+}
+#feature .tab .single-tab:first-child{
+    background: #ff9933;
+}
+#feature .tab .single-tab{
+    background: #333;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 15px;
+    margin-bottom: 2px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+#feature .text-area{
+    margin-left: 90px;
+}
+#feature .text-area h2{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+#feature .text-area p{
+    color: #333;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+#feature .text-area a{
+    display: inline-block;
+    background: #ff9933;
+    color: #fff;
+    padding: 17px 34px;
+    border-radius: 5px;
+    margin-top: 45px;
+    transition: 0.4s ease;
+}
+#feature .text-area a:hover{
+    background: #333;
+    color: #fff;
+}
+#feature .img{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+/* Feature End */
+/* Sublist-Start */
+#sublist{
+    background: #fff;
+}
+#sublist .text-area h2{
+    font-weight: 700;
+    font-family: 20px;
+    margin-bottom: 20px;
+}
+#sublist .text-area .underline{
+    height: 3px;
+    width: 90px;
+    background: #ff9933;
+}
+#sublist .text-area p{
+    color: #999;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#sublist .bottom-text .single{
+    display: block;
+    margin-top: 30px;
+}
+
+#sublist .bottom-text .single .icon i{
+    padding: 15px;
+    font-size: 16px;
+    color: #ff9933;
+    border: 2px solid #ff9933;
+    float: left;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+#sublist .bottom-text .single .about{
+    width: 93%;
+    float: right;
+}
+#sublist .bottom-text .single .about h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#sublist .bottom-text .single .about p{
+    font-size: 14px;
+    color: #999;
+}
+/* Sublist-End */
+/* Standard-Start */
+#standard{
+    background: #F5F5F5;
+}
+#standard .text-area {
+    padding-right: 40px;
+    margin-top: 20px;
+}
+#standard .text-area h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#standard .text-area .border{
+    height: 3px;
+    width: 90px;
+    background: #ff9933;
+    margin-bottom: 30px;
+}
+#standard .text-area p{
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+/* Standard-End */
+/* Awesome-Start */
+#awesome .single{
+    text-align: center;
+    padding: 20px;
+    margin-top: 75px;
+}
+#awesome .single i{
+    font-size: 30px;
+    padding: 15px 20px;
+    border: 1px solid #ff9933;
+    border-radius: 50%;
+    color: #ff9933;
+}
+#awesome .single .keyboard{
+    padding: 15px;
+}
+#awesome .single h2{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 30px 0px;
+}
+#awesome .single p{
+    color: #999;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* Awesome-End */
+/* Pricing-Start*/
+#pricing{
+    background: #F5F5F5;
+}
+#pricing .s-header h2{
+    font-family: 'Open Sans';
+}
+#pricing .single-price{
+    text-align: center;
+    margin-top: 130px;
+}
+#pricing .single-price .head{
+    background: #333;
+    color: #fff;
+    border-bottom: 5px solid #ff9933;
+}
+#pricing .single-price .head h2{
+    font-size: 20px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #F5F5F5;
+}
+#pricing .single-price .head .price{
+    font-size: 36px;
+    font-family: 'raleway';
+    font-weight: 700;
+    padding: 30px 0px;
+}
+#pricing .single-price .head .price span{
+    font-size: 56px;
+    font-family: 'raleway';
+}
+#pricing .single-price .head p{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    color: #999;
+    padding-bottom: 20px;
+}
+#pricing .single-price .body{
+    background: #fff;
+    color: #999;
+}
+#pricing .single-price .body p{
+    padding: 15px 0px;
+    border-bottom: 1px solid #999;
+}
+#pricing .single-price .body p:last-child{
+    border-bottom: 0px;
+}
+#pricing .middle{
+    margin: 80px 20px 0px 20px;
+}
+#pricing .middle .head{
+    border-bottom: 0px;
+}
+#pricing .middle .populer{
+    background: #ff9933;
+    padding: 15px 0px;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+/* Pricing-End*/
+/* Sustomer-Start */
+#customer .single{
+    margin-top: 80px;
+    margin-right: 25px;
+}
+#customer .col-md-4:last-child{
+    margin-right: 0px;
+}
+#customer .single .text{
+    background-color: #F5F5F5;
+    padding: 30px 15px;
+    color: #999;
+    border-radius: 5px;
+    position: relative;
+}
+#customer .single .text::after{
+    position: absolute;
+    content: '';
+    height: 30px;
+    width: 30px;
+    background-color: #F5F5F5;
+    transform: rotate(45deg);
+    left: 40px;
+    bottom: -12px;
+}
+#customer .single .foot{
+    margin-top: 40px;
+}
+#customer .single .foot .f-text{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+#customer .single .foot .f-text p{
+    color: #999;
+}
+/* Sustomer-End */
+/* Stylish-Start */
+#stylish{
+    background-image: url(assets/images/stylish-background.png);
+}
+#stylish .s-header h2{
+    color: #fff;
+}
+#stylish .s-header .border{
+    background-color: #fff;
+}
+#stylish .s-header p{
+    margin-bottom: 60px;
+}
+#stylish .s-header a{
+    color: #fff;
+    padding: 12px 24px;
+    border: 1px solid #fff;
+    transition: 0.4s ease;
+}
+#stylish .s-header a:hover{
+    color: #ff9933;
+    border: 1px solid #ff9933;
+}
+/* Stylish-End */
+/* Contact-Start */
+#contact .bottom{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+#contact .bottom .left{
+    margin-right: 30px;
+}
+#contact .bottom .left input{
+    width: 100%;
+    border: 0px;
+    outline: 0px;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 35px;
+    border-bottom: 1px solid #ccc;
+}
+#contact .bottom .right{
+    margin-left: 30px;
+}
+#contact .bottom .right textarea{
+    width: 100%;
+    border: 0px;
+    outline: 0px;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 35px;
+    border-bottom: 1px solid #ccc;
+}
+#contact a{
+    display: inline;
+    text-align: center;
+    background-color: #ff9933;
+    color: #fff;
+    padding: 12px 24px;
+    transition: 0.4s ease;
+    margin-left: 480px;
+    border-radius: 5px;
+}
+#contact a:hover{
+    background: #333;
+    color: #ff9933;
+}
+/* Contact-End */
+/* Footer-Start */
+#footer{
+    background-color: #000000;
+    color: #ccc;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+#footer .icon i{
+    padding: 0px 15px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+#footer .icon i:hover{
+    color: #ff9933;
+}
+#footer p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #999;
+}
+/* Footer-End */
